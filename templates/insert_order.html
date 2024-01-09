@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>insert_order data</title>
+</head>
+
+<body>
+    <center>
+        <h1>insert_order data into Order Table</h1>
+        <form action="" method="POST">
+            {% csrf_token %}
+
+            {{EOFO.as_p}}
+
+            <input type="submit" value="insert_order">
+        </form>
+    </center>
+</body>
+
+</html>
